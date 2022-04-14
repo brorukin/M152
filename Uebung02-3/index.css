@@ -1,0 +1,42 @@
+button {
+    display: block;
+    visibility: visible;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 2px 10px;
+}
+
+button:hover {
+    border: 2px solid red;
+}
+
+#abbrechen{
+    background-color: red;
+}
+/* .zurueck{
+    background-color: orange;
+} */
+
+.fortfahren{
+    background-color: green;
+}
+
+.neustarten{
+    background-color: blue;
+}
+
+.dangerous{
+    background-color: orange;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.inaktiv{
+    background-color: grey;
+}
+
+.gefaehrlich{
+    background-color: orange;
+}

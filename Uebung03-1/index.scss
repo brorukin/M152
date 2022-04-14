@@ -1,0 +1,31 @@
+$💿: rgb(199, 199, 199);
+$🌑: #777279;
+$🚗: auto;
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .wrapper {
+        width: 50%;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.person {
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: 💿;
+    box-shadow: 💿 1px 1px;
+
+    .image {
+        padding: 10px;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+}
