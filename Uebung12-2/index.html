@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="style.css">
 <body>
-
-<svg width="400" height="180">
-   <!--Haus-->
-    <line x1="100" y1="100" x2="100" y2="300" style="stroke:rgb(255,0,0);stroke-width:3" />
-    <line x1="70" y1="130" x2="160" y2="40" style="stroke:rgb(255,0,0);stroke-width:3" />
-    <line x1="160" y1="40" x2="500" y2="130" style="stroke:rgb(255,0,0);stroke-width:3" />
-    <!--R-->
-    <line x1="110" y1="146.5" x2="110" y2="300" style="stroke:rgb(255,0,0);stroke-width:3" />
-    <path d="M 110 146.5 q 110 110 146.5 0" stroke="blue" stroke-width="3" fill="none" />
-    <!--air-->
-  <text x="103" y="180" fill="red">air</text>
-</svg>  
- 
+  <div class="grid-container">
+    <div class="grid-item">
+      <svg width="400" height="180">
+        <!--Haus-->
+         <line x1="100" y1="100" x2="100" y2="300" style="stroke:rgb(255,0,0);stroke-width:3" />
+         <line x1="70" y1="130" x2="160" y2="40" style="stroke:rgb(255,0,0);stroke-width:3" />
+         <line x1="160" y1="40" x2="500" y2="130" style="stroke:rgb(255,0,0);stroke-width:3" />
+         <!--R-->
+         <line x1="110" y1="146.5" x2="110" y2="300" style="stroke:rgb(255,0,0);stroke-width:3" />
+         <line x1="110" y1="146.5" x2="125" y2="146.5" style="stroke:rgb(255,0,0);stroke-width:3"stroke-linecap="round"/>
+         <path d="M 125 146.5 q 30 0 30 -20" stroke="red" stroke-width="3" fill="none" stroke-linecap="round"/>
+         <path d="M 185 105.5 q -30 0 -30 20" stroke="red" stroke-width="3" fill="none" stroke-linecap="round"/>
+         <!--air-->
+       <text x="170" y="180" fill="red" font-size="3.5em" >air</text>
+     </svg>  
+    </div>
+    <div class="grid-item">
+      <img src="rairhaus.png" alt="rairhaus">
+    </div>
+    <div class="grid-item">SVG</div>
+    <div class="grid-item">Skizze</div>
+  </div>
 </body>
 </html>
