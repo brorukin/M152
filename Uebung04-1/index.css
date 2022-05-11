@@ -1,0 +1,18 @@
+.bigrair{
+width: 100%; 
+display:flex;
+}
+div.rair{
+    flex: 1;
+    border: 1px solid black;
+    height: 100%;
+}
+#rand.rair{
+    flex-basis: 200px;
+}
+#innen.rair{
+    flex-grow: 1;
+}
+#erst.rair{
+    flex-shrink: 0;
+}

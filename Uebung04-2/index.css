@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr 1fr 1fr;
+    grid-template-areas: "ga-violet ga-orange ga-orange ga-orange ga-purple" "ga-violet ga-green ga-beige ga-blue ga-blue" "ga-violet ga-yellowgreen ga-yellowgreen ga-blue ga-blue" "ga-brown ga-brown ga-bisque ga-bisque ga-bisque";
+    /* Zentriert */
+    width: 800px;
+    height: 500px;
+    background-color: lightblue;
+  }
+  .container .prurple {
+    background-color: purple;
+    grid-area: ga-purple;
+  }
+  .container .green {
+    background-color: green;
+    grid-area: ga-green;
+  }
+  .container .yellowgreen {
+    background-color: yellowgreen;
+    grid-area: ga-yellowgreen;
+  }
+  .container .bisque {
+    background-color: bisque;
+    grid-area: ga-bisque;
+  }
+  .container .beige {
+    background-color: burlywood;
+    grid-area: ga-beige;
+  }
+  .container .violet {
+    background-color: violet;
+    grid-area: ga-violet;
+  }
+  .container .blue {
+    background-color: blue;
+    grid-area: ga-blue;
+  }
+  .container .brown {
+    background-color: brown;
+    grid-area: ga-brown;
+  }
+  .container .orange {
+    background-color: orange;
+    grid-area: ga-orange;
+  }/*# sourceMappingURL=index.css.map */
